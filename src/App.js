@@ -1,16 +1,15 @@
-import "./App.css";
+import "./App.styled.js";
+import { Container } from "./App.styled.js";
+// import Header from "./components/Header/Header";
+// import MainContainer from "./components/MainContainer/MainContainer";
+// import GlobalStyle from "./components/ClobalStyle/GlobalStyle";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          test-task
-          App
-        </p>
-
-      </header>
-    </div>
+    <Container>Hello</Container>
+    // <MainContainer>
+    //   <Header />
+    // </MainContainer>
   );
 }
 
