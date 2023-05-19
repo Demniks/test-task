@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktest_task=self.webpackChunktest_task||[]).push([[261],{261:function(n,e,t){t.r(e),t.d(e,{default:function(){return u}});var r,s=t(168),i=t(444).ZP.h2(r||(r=(0,s.Z)(["\n  font-size: 60px;\n  color: green;\n  margin-top: 48px;\n  margin-left: 48px;\n"]))),c=t(184),u=function(){return(0,c.jsx)("main",{children:(0,c.jsx)("div",{children:(0,c.jsxs)(i,{children:["Welcome!",(0,c.jsx)("br",{}),"Tweets App for you!"]})})})}}}]);
+//# sourceMappingURL=261.cbca641f.chunk.js.map
