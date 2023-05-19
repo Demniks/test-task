@@ -1,15 +1,24 @@
-import "./App.styled.js";
-import { Container } from "./App.styled.js";
-// import Header from "./components/Header/Header";
-// import MainContainer from "./components/MainContainer/MainContainer";
-// import GlobalStyle from "./components/ClobalStyle/GlobalStyle";
+import { useDispatch } from "react-redux";
+import "./App.css";
+import { useEffect } from "react";
+import { fetchUsers } from "./redux/usersSlice";
+import Navigation from "./components/Navigation/Navigation";
+import UseRoutes from "./UseRoutes";
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchUsers());
+  }, [dispatch]);
+
   return (
-    <Container>Hello</Container>
-    // <MainContainer>
-    //   <Header />
-    // </MainContainer>
+    <div className="App">
+      <main>
+        <Navigation />
+        <UseRoutes />
+      </main>
+    </div>
   );
 }
 
