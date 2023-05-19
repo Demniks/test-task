@@ -1,8 +1,9 @@
 import { Oval } from "react-loader-spinner";
 import { LoaderCenter } from "./Loading.styled";
+
 const Loading = () => {
   return (
-    <LoaderCenter>
+      <LoaderCenter>
       <Oval
         height={80}
         width={80}

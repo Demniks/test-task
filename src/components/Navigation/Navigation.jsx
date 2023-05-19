@@ -12,11 +12,9 @@ const Navigation = () => {
   });
 
   return (
-    <header>
-      <NavigWrapper>
-        <NavMenu>{elements}</NavMenu>
-      </NavigWrapper>
-    </header>
+    <NavigWrapper>
+      <NavMenu>{elements}</NavMenu>
+    </NavigWrapper>
   );
 };
 

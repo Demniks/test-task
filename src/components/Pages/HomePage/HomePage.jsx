@@ -4,7 +4,11 @@ const HomePage = () => {
   return (
     <main>
       <div>
-        <TitleList>Welcome!<br/>Tweets App for you!</TitleList>
+        <TitleList>
+          Welcome!
+          <br />
+          Tweets App for you!
+        </TitleList>
       </div>
     </main>
   );
