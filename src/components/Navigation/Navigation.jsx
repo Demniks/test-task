@@ -12,7 +12,7 @@ const Navigation = () => {
   });
 
   return (
-    <NavigWrapper>
+    <NavigWrapper >
       <NavMenu>{elements}</NavMenu>
     </NavigWrapper>
   );

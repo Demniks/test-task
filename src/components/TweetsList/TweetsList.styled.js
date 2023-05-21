@@ -30,4 +30,8 @@ export const StyledBtn = styled.button`
     cursor: pointer;
     background-color: #5cd3a8;
   }
+
+  &:active {
+    background-color: tomato;
+  }
 `;

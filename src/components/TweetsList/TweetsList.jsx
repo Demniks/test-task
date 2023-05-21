@@ -10,8 +10,8 @@ const TweetsList = () => {
   const onLoadMoreBtn = () => {
     setVisible((prevState) => prevState + 3);
   };
-
   const users = useSelector(selectUsers);
+  
   const isLoading = useSelector(selectLoading);
   return (
     <>

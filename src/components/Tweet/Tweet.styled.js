@@ -83,14 +83,22 @@ export const StyledDiv = styled.div`
       cursor: pointer;
       background-color: #5cd3a8;
     }
+    
+    &:active {
+      background-color: tomato;
+    }
 
     &.followed {
       padding: 14px 39px;
       background-color: #5cd3a8;
 
-      &:hover {
-        background-color: #dbcaed;
+      &:active {
+        background-color: tomato;
       }
+
+      /* &:hover {
+        background-color: #dbcaed;
+      } */
     }
   }
 `;
