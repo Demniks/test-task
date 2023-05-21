@@ -25,6 +25,7 @@ const TweetsList = () => {
               </li>
             );
           })}
+    
       </StyledUl>
       {visible < users.length && (
         <StyledBtn type="button" onClick={onLoadMoreBtn}>
